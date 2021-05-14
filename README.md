@@ -1,6 +1,6 @@
 # RageUi-TemplateMenu
 
-<br>
+<br/>
 
 EN:
 

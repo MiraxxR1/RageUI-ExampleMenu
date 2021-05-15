@@ -28,4 +28,8 @@ RegisterCommand("miraxxr", function(source, args, rawCommand)
     OpenTemplateMenu()
 end, false)
 
+Keys.Register('E', 'E', 'Open rage template menu', function()
+    OpenTemplateMenu()
+end)
+
 Alvys.Utils.Print("RageUI - TemplateMenu by MiraxxR#7492 : https://github.com/MiraxxR1/RageUI-TemplateMenu")

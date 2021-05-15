@@ -24,10 +24,12 @@ function OpenTemplateMenu()
     end
 end
 
+-- Command : /miraxxr
 RegisterCommand("miraxxr", function(source, args, rawCommand)
     OpenTemplateMenu()
 end, false)
 
+-- Press E to open the menu
 Keys.Register('E', 'E', 'Open rage template menu', function()
     OpenTemplateMenu()
 end)

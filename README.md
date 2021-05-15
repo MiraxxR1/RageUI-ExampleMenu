@@ -2,6 +2,8 @@
 
 <br/>
 
+<h3>Informations</h3>
+ 
 ---
 
 EN:

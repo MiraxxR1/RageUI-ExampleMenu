@@ -20,5 +20,5 @@ client_scripts {
     '@Alvys/modules/RageUI/menu/items/*.lua',
     '@Alvys/modules/RageUI/menu/panels/*.lua',
     '@Alvys/modules/RageUI/menu/windows/*.lua',
-    "@cl_rui.lua",
+    "cl_rui.lua"
 }

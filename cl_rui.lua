@@ -7,20 +7,22 @@ templateMenu.Closed = function()
 end
 
 function OpenTemplateMenu()
-    if open then
-        open = false
-        RageUI.Visible(templateMenu, false)
-    else
-        open = true
-        RageUI.Visible(templateMenu, true)
-        Citizen.CreateThread(function()
-            while open do
-                RageUI.IsVisible(templateMenu, function()
-                    
-                end)
-                Wait(1)
-            end
-        end)
+    if open == false then
+        if open then
+            open = false
+            RageUI.Visible(templateMenu, false)
+        else
+            open = true
+            RageUI.Visible(templateMenu, true)
+            Citizen.CreateThread(function()
+                while open do
+                    RageUI.IsVisible(templateMenu, function()
+
+                    end)
+                    Wait(1)
+                end
+            end)
+        end
     end
 end
 

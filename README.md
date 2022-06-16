@@ -1,4 +1,4 @@
-# RageUi-TemplateMenu
+# RageUI-ExampleMenu
 
 <h3>Informations</h3>
  
